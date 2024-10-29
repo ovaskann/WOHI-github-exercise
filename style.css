@@ -1,0 +1,72 @@
+body {
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+}
+
+nav ul {
+    display:flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+nav a {
+    font-weight: bold; /* Linkkien paksuus */
+    transition: color 0.5s; /* Sujuva väri siirtymä */
+}
+
+h1 {
+    margin: 50px 0px;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+.form-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: 20%;
+    margin:30px auto;
+}
+
+
+@media (max-width: 600px) {
+
+    .form-container {
+        width: 95%; /* Lomakkeen leveys pienemmillä näytöillä */
+    }
+
+    input[type="submit"] {
+        width: 100%; /* Painikkeen leveys */
+    }
+}

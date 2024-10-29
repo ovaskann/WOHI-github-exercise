@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My contact info</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Website</a>
+                <ul class="navbar-nav d-flex flex-row ml-auto">
+                    <li class="nav-item mx-2"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="cv.html">CV</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Here is how you can contact me</h1>
+        <div class="form-container">
+            <form class="mt-4">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" class="form-control" id="age">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Write your message here"></textarea>
+                </div>
+                <fieldset class="form-group">
+                    <legend>How did you know about my page?</legend>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="source" id="google" value="Google">
+                        <label class="form-check-label" for="google">Google</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="source" id="friend" value="From a friend">
+                        <label class="form-check-label" for="friend">From a friend</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="source" id="linkedin" value="LinkedIn">
+                        <label class="form-check-label" for="linkedin">LinkedIn</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="source" id="other" value="Other">
+                        <label class="form-check-label" for="other">Other</label>
+                    </div>
+                </fieldset>
+                <button type="submit" class="btn btn-primary mt-3">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
