@@ -21,8 +21,8 @@ nav li {
 }
 
 nav a {
-    font-weight: bold; /* Linkkien paksuus */
-    transition: color 0.5s; /* Sujuva väri siirtymä */
+    font-weight: bold;
+    transition: color 0.5s;
 }
 
 h1 {
@@ -63,10 +63,10 @@ input[type="submit"] {
 @media (max-width: 600px) {
 
     .form-container {
-        width: 95%; /* Lomakkeen leveys pienemmillä näytöillä */
+        width: 95%;
     }
 
     input[type="submit"] {
-        width: 100%; /* Painikkeen leveys */
+        width: 100%;
     }
 }
